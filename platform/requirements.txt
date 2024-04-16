@@ -2,3 +2,4 @@ requests
 Django==3.1.6
 djangorestframework
 psycopg2
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
