@@ -2,3 +2,4 @@ requests
 Django==3.1.6
 djangorestframework
 psycopg2
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
