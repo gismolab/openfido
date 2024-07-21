@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.0.0-experimental
-FROM python:3.8-slim as base
+FROM python:3.13.0b3-slim as base
 
 ENV PORT 5000
 ENV FLASK_APP run.py
