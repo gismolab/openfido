@@ -1,4 +1,4 @@
-FROM python:3.8-slim as base
+FROM python:3.13.0rc2-slim as base
 
 # S6 for multiprocess management
 ADD https://github.com/just-containers/s6-overlay/releases/download/v2.1.0.2/s6-overlay-amd64-installer /tmp/
